@@ -11,15 +11,15 @@
 		body{
 			background-color:var(--bg-color);
 		}
-		div p:first-child{
+		article p:first-child{
 			background-color:black;
 			color:white;
 		}
-		div p:nth-child(2) {
+		article p:nth-child(2) {
 			color:black;
 		}
-		div p:last-child {
-			color:red;
+		article p:last-child {
+			color: red;
 		}
 		ul li{
 			width:50%;
@@ -29,7 +29,7 @@
 		ul li:nth-child(odd){
 			background-color:white;
 		}
-		ul li:first-child ul li:last-child{
+		ul li:first-child, ul li:last-child{
 			font-size:22px;
 		}
 		ul li:nth-child(3){
@@ -40,7 +40,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div>
+	<article>
 		<p>First Paragraph</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam orci in velit pharetra.</p>
 		<p>Integer nec ante sit amet felis hendrerit consequat. Maecenas volutpat sollicitudin arcu.</p>
@@ -51,10 +51,11 @@
 			<li>Fourth Item</li>
 			<li>Fifth Item</li>
 		</ul>
-	</div>
+	</article>
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
 
 </html>
+ 
